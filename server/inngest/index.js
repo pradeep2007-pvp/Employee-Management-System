@@ -5,7 +5,7 @@ import LeaveApplication from "../models/LeaveApplication.js";
 import sendEmail from "../config/nodemailer.js";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "fullstack-ems" });
+export const inngest = new Inngest({ id: "Employee Management System" });
 
 // Auto Check-out for employees
 const autoCheckOut = inngest.createFunction(
