@@ -8,7 +8,7 @@ import employeesRouter from "./routes/employeeRoutes.js";
 import profileRouter from "./routes/profileRoutes.js";
 import attendanceRouter from "./routes/attendanceRoutes.js";
 import leaveRouter from "./routes/leaveRoutes.js";
-import payslipRouter from "./routes/payslipsRoutes.js"; 
+import payslipRouter from "./routes/payslipRoutes.js"; 
 import dashboardRouter from "./routes/dashboardRoutes.js";
 
 import { serve } from "inngest/express";
